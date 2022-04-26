@@ -57,8 +57,11 @@ body {
     max-width: 71%;
     font-size: 25px;
     padding-left: var(--padding-left);
+}
 
-    
+.let-do-this{
+    font-weight: bold;
+    font-size: 20px;
 }
 .form-container{
     display: flex;
@@ -95,10 +98,13 @@ input[type=text] {
     box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.1);
   }
 
+   /* button section */
+
  .create_account{
      margin-top: 30px;
      padding-left: var(--padding-left);
  }
+
 
  button{
      font-size: 1rem;
