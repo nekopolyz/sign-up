@@ -20,6 +20,10 @@ body {
 
 }
 
+.left img{
+    height: 120px;
+}
+
 .odin-logo {
     align-self: center;
     justify-content: center;
@@ -34,14 +38,44 @@ body {
 }
 
 
+/* right-section */
+
 .right {
     flex-direction: column;
     display: flex;
-    flex: 6;
+    flex: 5;
     justify-content: center;
+    padding-left: 48px;
 }
 
-.left img{
-    height: 120px;
+.text {
+    max-width: 90%;
+    font-size: 30px;
     
 }
+.form-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vh;
+    row-gap: 20px;
+    column-gap: 90px;
+}
+
+input,label{
+    display: block;
+}
+
+
+input[type=text] {
+    width: 200px;
+ }
+
+
+
