@@ -28,9 +28,11 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 130px;
 
 }
+
 
 .right {
     flex-direction: column;
