@@ -1,3 +1,6 @@
+:root{
+    --padding-left:38px
+}
 body {
     margin: 0;
     padding: 0;
@@ -45,17 +48,24 @@ body {
     display: flex;
     flex: 5;
     justify-content: center;
-    padding-left: 48px;
+    /* padding-left: 38px; */
+    /* margin-left: 28px; */
+    margin-bottom: 100px;
 }
 
 .text {
-    max-width: 90%;
-    font-size: 30px;
+    max-width: 71%;
+    font-size: 25px;
+    padding-left: var(--padding-left);
+
     
 }
 .form-container{
     display: flex;
     flex-direction: column;
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+    padding-left: var(--padding-left);
+    padding-bottom: 30px;
     
 }
 
@@ -72,9 +82,17 @@ input,label{
     display: block;
 }
 
-
+input {
+    border: 1px solid #e5e7eb;
+}
 input[type=text] {
     width: 200px;
+    height: 20px;
+ }
+
+ .create_account{
+     margin-top: 30px;
+     padding-left: var(--padding-left);
  }
 
 
