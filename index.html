@@ -6,35 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
-    <link src="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
-<div class="left">
-    <div>
-        <img src="halie.jpeg">
-    </div>
-    <div>
-        <img src="odin-lined.png">
-    </div>
-</div>
-
-    <div class="right">
-        <div class="text">
-        <p>This is not a real online service! You know you need something
-            like this in your life to help you realize your deepest dreams.
-            Sign up now to get started
-        </p>
-        <p>
-            You know you want to.
-        </p>
+    <div class="content-wrap">
+        <div class="left">
+            
+            <div class="odin-logo">
+                <img src="odin-lined.png">  
+                <h1>ODIN</h1>
+            </div>
         </div>
-        
 
+        <div class="right">
+            <div class="text">
+                <p>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up now to get started
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+            </div>
 
+            <div class="form-container">
+                <p>Let's do this</p>
+                <form>
+                    <div>
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div>
+                        <label for="Last_name">Last Name:</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="text" name="phone_number" id="phone_number">
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+                    <div>
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="text" name="confirm_password" id="confirm_password">
+                    </div>
+                </form>
+                <div class="create_account">
+                    <button>Create Account</button>
+                    <p class="log-in">Already have an account? <a href="/">Log in</a></p>
+                </div>
+            </div>
+
+        </div>
     </div>
-
 
 </body>
 <script src="main.js"></script>

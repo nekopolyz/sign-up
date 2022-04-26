@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrap {
+    display: flex;
+    height: 100vh;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url(halie.jpeg);
+    flex: 3;
+    background-size: cover;
+    background-position: center center;
+    justify-content: space-between;
+
+}
+
+.odin-logo {
+    align-self: center;
+    justify-content: center;
+    margin-top: 20vh;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.right {
+    flex-direction: column;
+    display: flex;
+    flex: 6;
+    justify-content: center;
+}
+
+.left img{
+    height: 120px;
+    
+}
